@@ -16,7 +16,7 @@ routes.patch('/updateprofile',passport.authenticate('jwt',{session : false}),adm
 
 
 
-routes.post('/emailData',admincontroller.emailData); 
+routes.post('/emailData',admincontroller.emailData);    
 routes.post('/otpData',admincontroller.otpData);
 routes.post('/newpassData',admincontroller.newpassData);
 

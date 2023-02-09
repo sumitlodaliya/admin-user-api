@@ -25,7 +25,7 @@ module.exports.subcategory = async (req, res) => {
             }
 
             subcategory.create({
-                name : req.body.name,
+                name : req.body.name, 
                 email : req.body.email,
                 password : req.body.password,
                 city : req.body.city,
